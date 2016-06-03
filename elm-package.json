@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Remaking Jonny Arnold's Proverbica in Elm.",
-    "repository": "https://github.com/lpil/elm-proverbica.git",
+    "repository": "https://github.com/ejlarcs/proverbicam.git",
     "license": "BSD3",
     "source-directories": [
         "."
