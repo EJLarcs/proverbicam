@@ -1,0 +1,13 @@
+language: node_js
+
+before_script:
+  - npm install elm
+  - export PATH="$PATH:$PWD/node_modules/elm/binwrappers/"
+
+script:
+  - elm # TODO
+
+cache:
+  directories:
+    - elm-stuff
+    - node_modules
