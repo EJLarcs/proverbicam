@@ -1,5 +1,7 @@
-elmPath = ./node_modules/elm/binwrappers/
-elmPackage = $(elmPath)elm-package
+binPath = ./node_modules/elm/binwrappers/
+package = $(binPath)elm-package
+repl = $(binPath)elm-repl
+reactor = $(binPath)elm-reactor
 
 help: ## Prints help for targets with comments
 	@echo proverbicam - The site of all wisdom
@@ -8,4 +10,10 @@ help: ## Prints help for targets with comments
 
 install: ## Install dependencies for Elm
 	npm install
-	$(elmPackage) install
+	$(package) install
+
+repl:
+	$(repl)
+
+reactor:
+	$(reactor)
