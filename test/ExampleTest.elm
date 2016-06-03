@@ -7,6 +7,4 @@ tests =
   suite "A Test Suite"
     [ test "Addition"
         <| assertEqual (3 + 7) 10
-    , test "This test should fail"
-        <| assert False
     ]
