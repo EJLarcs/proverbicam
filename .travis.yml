@@ -4,6 +4,11 @@ before_script:
   - npm install elm
   - export PATH="$PATH:$PWD/node_modules/elm/binwrappers/"
 
+sudo: false
+
+notifications:
+  email: false
+
 script:
   - elm # TODO
 
