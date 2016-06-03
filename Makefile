@@ -10,7 +10,7 @@ help: ## Prints help for targets with comments
 
 install: ## Install dependencies for Elm
 	npm install
-	$(package) install
+	$(package) install --yes
 
 repl:
 	$(repl)

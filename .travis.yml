@@ -1,8 +1,7 @@
 language: node_js
 
-before_script:
-  - npm install elm
-  - export PATH="$PATH:$PWD/node_modules/elm/binwrappers/"
+install:
+  - make install
 
 sudo: false
 
@@ -10,7 +9,8 @@ notifications:
   email: false
 
 script:
-  - elm # TODO
+  # TODO
+  - make help
 
 cache:
   directories:
